@@ -19,6 +19,7 @@
 		E2ABC75429C72C6D006FF48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2ABC75629C72C6D006FF48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2ABC75929C72C6D006FF48F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2ABC76029C7417D006FF48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		E2ABC75129C72C6D006FF48F /* GettingStarted */ = {
 			isa = PBXGroup;
 			children = (
+				E2ABC76029C7417D006FF48F /* Info.plist */,
 				E2ABC75229C72C6D006FF48F /* GettingStartedApp.swift */,
 				E2ABC75429C72C6D006FF48F /* ContentView.swift */,
 				E2ABC75629C72C6D006FF48F /* Assets.xcassets */,
@@ -272,6 +274,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LUY4875ZZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GettingStarted/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +308,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LUY4875ZZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GettingStarted/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
