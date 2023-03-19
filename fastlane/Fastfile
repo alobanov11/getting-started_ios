@@ -63,7 +63,7 @@ platform :ios do
     gym(
       configuration: "Release",
       project: "GettingStarted.xcodeproj",
-      scheme: "your_schema",
+      scheme: "GettingStarted",
       export_method: "app-store",
       export_options: {
         provisioningProfiles: { 
@@ -79,30 +79,10 @@ platform :ios do
       skip_submission: true,
       distribute_external: false,
       notify_external_testers: false,
-      ipa: "./your_app_name.ipa"
+      ipa: "./GettingStarted.ipa"
     )
 
     delete_temp_keychain(keychain_name)
-  end
-
-  def delete_temp_keychain(name)
-    delete_keychain(
-      name: name
-    ) if File.exist? File.expand_path("~/Library/Keychains/#{name}-db")
-  end
-  
-  def create_temp_keychain(name, password)
-    create_keychain(
-      name: name,
-      password: password,
-      unlock: false,
-      timeout: false
-    )
-  end
-
-  def ensure_temp_keychain(name, password)
-    delete_temp_keychain(name)
-    create_temp_keychain(name, password)
   end
 
 end
